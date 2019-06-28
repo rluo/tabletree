@@ -14,6 +14,8 @@ This package will link multiple SQL-tables together to facilitate (potentially l
 Examples
 ========
 
+In the following example, 3 tables are linked together via different columns and different data types. They form a tree: sex -> preference -> fruit.  This package  enables finding  the favoriate fruits for 'M' ids by transversing this table tree automatically. 
+
 .. code-block:: python
 
 
