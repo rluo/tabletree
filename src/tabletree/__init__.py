@@ -11,4 +11,4 @@ finally:
     del get_distribution, DistributionNotFound
 
 
-from tabletree.tabletree import *
+from tabletree.tabletree import TableTree, TableNode, TableLink
