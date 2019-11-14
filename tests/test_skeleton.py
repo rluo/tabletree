@@ -47,3 +47,6 @@ def test_4node():
         ttree.findMatched('fruit', 'sex', tn1.df.tab1_v2 == 'M')
         print( ttree.findMatched('hobby', 'sex', tn1.df.tab1_v2 == 'M') )
         print(ttree)
+        ttree.search_children(ttree.getTN('sex'), 'hobby')
+        ttree.search_children( 'sex', 'hobby')
+        ttree.getTN('fruit')

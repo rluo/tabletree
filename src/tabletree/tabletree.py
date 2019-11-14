@@ -133,6 +133,8 @@ class TableTree:
         return self.search_children(cur, name)
 
     def search_children(self, cur, name):
+        if isinstance(cur, str):
+            cur = self.root
         if cur.name == name:
             return cur
         elif cur.children is None:
