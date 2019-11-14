@@ -2,6 +2,13 @@
 Changelog
 =========
 
+Version 0.3.3
+===========
+
+- New search children, find path
+
+
+
 Version 0.2
 ===========
 
